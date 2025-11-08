@@ -1,0 +1,38 @@
+1-a, 6-a,10-a - https://wokwi.com/projects/446794062688520193 -- blinking one light
+1-b,5-b,10-b - https://wokwi.com/projects/446794177099715585 - blink on board light
+2-a, 9-a - https://wokwi.com/projects/446794872950591489 - port 8 port 9 
+2-b, 9-b - https://wokwi.com/projects/446795104643984385 -  specific pattern
+3-b - https://wokwi.com/projects/446849173242885121 - button
+4-b part 2 - https://wokwi.com/projects/446851772890906625 extend to support
+8 - https://wokwi.com/projects/444673746324847617 telemedicine
+7 - https://wokwi.com/projects/444673169451588609 agri
+3-a, 4-a - https://wokwi.com/projects/446853596291578881 LM35
+6b - https://wokwi.com/projects/444674449555718145 PythonSr04
+
+5.a. Hardware Experiment - motor
+
+void setup() {
+  pinMode (8, OUTPUT);
+  pinMode (9, OUTPUT);
+  pinMode (10, OUTPUT);
+  pinMode (11, OUTPUT);
+}
+void loop() {
+  digitalWrite(8, HIGH);
+  delay(5);
+  digitalWrite(8, LOW);
+  delay(5);
+  digitalWrite(9, HIGH);
+  delay(5);
+  digitalWrite(9, LOW);
+  delay(5);
+  digitalWrite(10, HIGH);
+  delay(5);
+  digitalWrite(10, LOW);
+  delay(5);
+  digitalWrite(11, HIGH);
+  delay(5);
+  digitalWrite(11, LOW);
+  delay(5);
+}
+
